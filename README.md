@@ -21,23 +21,22 @@ EDA was conducted to address the following key questions:
 3. **What is the ideal team for the final 11?**
 
 ## Steps Followed
+### Data Collection
 
-## Data Collection
-
-CSV files containing match details, player statistics, and other relevant information were made from the data in ESPN Cric info website. The data was stored in the following csv files:
+Match details, player statistics, and other relevant information were acquired from the data in ESPNcricinfo website. The data was stored in the following csv files:
 
 - Match results  (dim_match_summary.csv)
 - Batting summaries (dim_bating_summary.csv)
 - Bowling summaries (dim_bowling_summary.csv)
 - Player-specific details (dim_players.csv)
 
-## Data Transformation (Power BI)
+### Data Transformation (Power BI)
 
-### Importing Data
+1. **Importing Data**
 
 The CSV files were imported into Power BI using the "Get Data" option.
 
-### Data Cleaning
+2. **Data Cleaning**
 
 Power Query was used to clean and transform the data. This involved:
 
@@ -46,16 +45,16 @@ Power Query was used to clean and transform the data. This involved:
 - Handling null values
 - Creating new calculated columns as per requirement
 
-### Fact and Dimension Tables
+3. **Fact and Dimension Tables**
 
 Fact tables and dimension tables were established by linking corresponding columns.
 
-## Data Modeling
+4. **Data Modeling**
 
 - Relationships were created between the tables to enable comprehensive data analysis.
 - Calculated columns and measures were created using DAX (Data Analysis Expressions) for detailed insights.
 
-## Dashboard Creation
+5. **Dashboard Creation**
 
 Multiple dashboards were built in Power BI to visualize data and assist in player selection. Visuals include:
 
@@ -67,11 +66,11 @@ Multiple dashboards were built in Power BI to visualize data and assist in playe
 
 The final dashboard allowed for the selection of the top 11 players based on data-driven insights.
 
-## Player Selection
+6. **Player Selection**
 
 The final eleven were selected using insights generated from the dashboards. Parameters such as batting averages, strike rates, and bowling economy rates were considered.
 
-## Improving the Dashboard
+7. **Improving the Dashboard**
 
 The dashboard's look and feel were enhanced by applying conditional formatting, sorting, and organizing data into a user-friendly format.
 
