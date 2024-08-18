@@ -94,5 +94,5 @@ The dashboard's look and feel were enhanced by applying conditional formatting, 
 
 ## Screenshots
 
-![Dashboard](https://github.com/user-attachments/assets/a79e11cc-68a6-4422-970b-34f7cfdb6ab0)
+![Dashboard](https://github.com/mohit0507/T20-Cricket-Data-Analysis/blob/main/Final11_Dashboard.png)
 
